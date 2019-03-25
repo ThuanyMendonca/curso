@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funções String</title>
+</head>
+<body>
+    <script>
+        var nome = 'Jorge Sant Ana'
+        //propriedade length - quantidade de caracteres
+        document.write(nome.length)
+        document.write('<br>')
+        // charAt - retorna o caracter da posição que colocar
+        document.write(nome.charAt(7))
+
+        document.write('<br>')
+        // indexOf - retorna a posição do caracter dentro da String
+        document.write(nome.indexOf('g'))
+        // quando não tem o caracter para retornar no indexOf ele retorna -1
+        document.write('<br>')
+        document.write(nome.replace('Sant Ana', 'Silva'))
+        document.write('<br>')
+        // recorta uma parte da String
+        document.write(nome.substr(6, 4))
+        document.write('<br>')
+        // converte para letra minuscula
+        document.write(nome.toLowerCase())
+        document.write('<br>')
+        // converte para letra maiuscula
+        document.write(nome.toUpperCase())
+        document.write('<br>')
+        // remover espaços nas extremidades da string
+        document.write(nome.trim())
+    </script>
+</body>
+</html>
